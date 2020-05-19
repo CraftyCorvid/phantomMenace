@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.ivanff.phantom.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PhantomSpawnerMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

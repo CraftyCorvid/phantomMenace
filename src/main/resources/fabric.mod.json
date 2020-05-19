@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "phantom_menace",
+  "version": "${version}",
+  "name": "Phantom Menace",
+  "description": "Disable Phantoms on your fabric server",
+  "authors": [
+    "CleverCorvid"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/phantom_menace/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.ivanff.phantom.PhantomMenaceMod"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "phantomMenace.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
